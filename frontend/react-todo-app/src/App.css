@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(
+        90deg,
+        rgba(48, 16, 255, 1) 0%,
+        rgba(100, 115, 225, 1) 100%
+    );
+}
+
+.todo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    min-height: 600px;
+    background: #161a2b;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin: 32px 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }

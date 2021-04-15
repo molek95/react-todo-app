@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoForm /> with no props should match the snapshot 1`] = `"<form class=\\"todo-form\\"><input type=\\"text\\" placeholder=\\"Add a todo\\" value=\\"\\" name=\\"text\\" class=\\"todo-input\\"/><button class=\\"todo-button\\">Add todo</button></form>"`;
